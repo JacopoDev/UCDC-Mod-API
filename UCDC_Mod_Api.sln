@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDC_Mod_Api", "UCDC_Mod_Api\UCDC_Mod_Api.csproj", "{5CC49C91-8EE3-492B-BDA8-C2F3DECF0EE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC49C91-8EE3-492B-BDA8-C2F3DECF0EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC49C91-8EE3-492B-BDA8-C2F3DECF0EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC49C91-8EE3-492B-BDA8-C2F3DECF0EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC49C91-8EE3-492B-BDA8-C2F3DECF0EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
