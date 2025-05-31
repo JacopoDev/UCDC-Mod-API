@@ -7,8 +7,7 @@ namespace UCDC_Mod_Api.ModInterfaces
 {
     public interface ITextAiAccessor
     {
-        void GenerateMessage(ITextAiProcessor aiProcessor, Action<Result> finishedAction);
-        GameObject GetSettingsButton();
-        GameObject GetSettingsPanel();
+        void GetDatabase(IAiApiDatabase database);
+        int GenerateMessage(ITextAiProcessor aiProcessor, Action<Result> finishedAction);
     }
 }
