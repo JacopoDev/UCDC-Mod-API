@@ -2,7 +2,7 @@
 
 namespace UCDC_Mod_Api.ModInterfaces
 {
-    public interface IModSetting
+    public interface IModPanel
     {
         GameObject GetSettingsButton();
         GameObject GetSettingsPanel();

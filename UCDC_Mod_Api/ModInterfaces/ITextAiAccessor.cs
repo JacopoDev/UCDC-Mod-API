@@ -7,7 +7,7 @@ namespace UCDC_Mod_Api.ModInterfaces
 {
     public interface ITextAiAccessor
     {
-        void GetDatabase(IAiApiDatabase database);
+        void SetDatabase(IAiApiDatabase database);
         int GenerateMessage(ITextAiProcessor aiProcessor, Action<Result> finishedAction);
     }
 }

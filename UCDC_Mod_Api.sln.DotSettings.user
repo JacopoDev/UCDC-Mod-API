@@ -2,4 +2,7 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005CHyperbook_005CDesktop_005CUMod_002DInterface_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005CHyperbook_005CDesktop_005CUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005COther_0020Projects_005CUCDC_005FMod_005FApi_005CUCDC_005FMod_005FApi_005CUMod_002DInterface_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005COther_0020Projects_005CUCDC_005FMod_005FApi_005CUCDC_005FMod_005FApi_005CUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=E_003A_005COther_0020Projects_005CUCDC_005FMod_005FApi_005CUCDC_005FMod_005FApi_005CUnityEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="E:\Other Projects\UCDC_Mod_Api\UCDC_Mod_Api\UMod-Interface.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
