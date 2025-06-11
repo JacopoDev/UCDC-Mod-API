@@ -55,6 +55,7 @@
         <Compile Include="Models\Result.cs" />
         <Compile Include="Models\SkinInfo.cs" />
         <Compile Include="Models\VoiceResult.cs" />
+        <Compile Include="ModInterfaces\ICreatedOnLoad.cs" />
         <Compile Include="ModInterfaces\IModPanel.cs" />
         <Compile Include="ModInterfaces\ISettingsAccessor.cs" />
         <Compile Include="ModInterfaces\ISkinAccessor.cs" />

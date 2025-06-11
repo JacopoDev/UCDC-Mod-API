@@ -4,8 +4,9 @@ namespace UCDC_Mod_Api.GameInterfaces
 {
     public interface IAiApiDatabase
     {
-        ITextAiAccessor GetActive();
-        void SetApiActive(ITextAiAccessor accessor);
-        void SetApiActive(IVoiceAiAccessor accessor);
+        ITextAiAccessor GetActiveTextAccessor();
+        void SetActiveTextAccessor(ITextAiAccessor accessor);
+        IVoiceAiAccessor GetActiveVoiceAccessor();
+        void SetActiveVoiceAccessor(IVoiceAiAccessor accessor);
     }
 }
