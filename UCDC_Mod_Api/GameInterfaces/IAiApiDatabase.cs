@@ -6,5 +6,6 @@ namespace UCDC_Mod_Api.GameInterfaces
     {
         ITextAiAccessor GetActive();
         void SetApiActive(ITextAiAccessor accessor);
+        void SetApiActive(IVoiceAiAccessor accessor);
     }
 }
