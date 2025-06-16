@@ -31,6 +31,9 @@
         <DefineConstants>TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\Release\UCDC_Mod_Api.xml</DocumentationFile>
+		<NoWarn>1591</NoWarn>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="System" />
@@ -45,18 +48,18 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="GameInterfaces\IAiApiDatabase.cs" />
-        <Compile Include="GameInterfaces\ISettingsDatabase.cs" />
-        <Compile Include="GameInterfaces\ISkinDatabase.cs" />
-        <Compile Include="GameInterfaces\ITextAiProcessor.cs" />
+        <Compile Include="GameInterfaces\IAiApiProvider.cs" />
+        <Compile Include="GameInterfaces\ISettingsProvider.cs" />
+        <Compile Include="GameInterfaces\ISkinDatabaseProvider.cs" />
+        <Compile Include="GameInterfaces\IChatProvider.cs" />
         <Compile Include="Models\Chat.cs" />
         <Compile Include="Models\Message.cs" />
         <Compile Include="Models\MessageContent.cs" />
-        <Compile Include="Models\Result.cs" />
+        <Compile Include="Models\TextResult.cs" />
         <Compile Include="Models\SkinInfo.cs" />
         <Compile Include="Models\VoiceResult.cs" />
         <Compile Include="ModInterfaces\ICreatedOnLoad.cs" />
-        <Compile Include="ModInterfaces\IModPanel.cs" />
+        <Compile Include="ModInterfaces\IModPanelCreator.cs" />
         <Compile Include="ModInterfaces\ISettingsAccessor.cs" />
         <Compile Include="ModInterfaces\ISkinAccessor.cs" />
         <Compile Include="ModInterfaces\ITextAiAccessor.cs" />

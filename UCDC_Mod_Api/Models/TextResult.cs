@@ -1,15 +1,13 @@
-﻿using UnityEngine;
-
-namespace UCDC_Mod_Api.Models
+﻿namespace UCDC_Mod_Api.Models
 {
     /// <summary>
-    /// Result value from voice-gen ai <br />
+    /// Result value from text-gen ai <br />
     /// Game considers messages successful if code equals 200 (from HttpStatusCode.OK)
     /// </summary>
-    public class VoiceResult
+    public class TextResult
     {
         public int Code;
         public string ErrorMessage;
-        public AudioClip Voice;
+        public Message Message;
     }
 }
