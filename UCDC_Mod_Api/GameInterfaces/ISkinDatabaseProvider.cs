@@ -4,13 +4,13 @@ namespace UCDC_Mod_Api.GameInterfaces
 {
     /// <summary>
     /// Notice: Interface is implemented by the game classes <br /><br />
-    /// Adds a way to access in-game skin list (not implemented yet!)
+    /// Adds a way to access in-game skin list 
     /// </summary>
     public interface ISkinDatabaseProvider
     {
         void Add(SkinInfo skin);
         void Remove(SkinInfo skin);
-        void Update(string skinName, SkinInfo newSkin);
+        void Replace(string skinName, SkinInfo newSkin);
         bool Contains(SkinInfo skin);
     }
 }

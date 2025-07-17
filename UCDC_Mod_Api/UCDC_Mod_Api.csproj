@@ -66,6 +66,10 @@
         <Compile Include="ModInterfaces\ITextAiAccessor.cs" />
         <Compile Include="ModInterfaces\ITextAiExtraSettings.cs" />
         <Compile Include="ModInterfaces\IVoiceAiAccessor.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\IBlinkLocator.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\IHeadPatLocator.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\IPropsLocator.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\IRagDollLocator.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

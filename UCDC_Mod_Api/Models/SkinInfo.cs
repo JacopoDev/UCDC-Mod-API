@@ -8,5 +8,6 @@ namespace UCDC_Mod_Api.Models
         public string Description;
         public Sprite Preview;
         public GameObject Prefab;
+        public Avatar AnimationAvatar;
     }
 }
