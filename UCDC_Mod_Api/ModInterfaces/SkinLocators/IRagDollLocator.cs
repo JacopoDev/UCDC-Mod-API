@@ -11,5 +11,6 @@ namespace UCDC_Mod_Api.ModInterfaces.SkinLocators
     {
         public List<Rigidbody> GetBodyParts();
         public Transform GetHip();
+        public Rigidbody GetHand(); // used for locating the grabbing
     }
 }

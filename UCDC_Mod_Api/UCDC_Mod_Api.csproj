@@ -55,6 +55,8 @@
         <Compile Include="Models\Chat.cs" />
         <Compile Include="Models\Message.cs" />
         <Compile Include="Models\MessageContent.cs" />
+        <Compile Include="Models\PropInfo.cs" />
+        <Compile Include="Models\PropPlacementInfo.cs" />
         <Compile Include="Models\TextAiInfo.cs" />
         <Compile Include="Models\TextResult.cs" />
         <Compile Include="Models\SkinInfo.cs" />

@@ -10,7 +10,7 @@ namespace UCDC_Mod_Api.ModInterfaces.SkinLocators
         // Return skinned mesh for face/left eye
         public SkinnedMeshRenderer GetLeftEye();
         // Return skinned mesh for face/right eye
-        public SkinnedMeshRenderer GetLRightEye();
+        public SkinnedMeshRenderer GetRightEye();
 
         public int GetEyeCloseBlendIdLeft();
         public int GetEyeCloseBlendIdRight();
