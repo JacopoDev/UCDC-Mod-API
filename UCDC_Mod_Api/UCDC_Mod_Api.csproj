@@ -52,7 +52,9 @@
         <Compile Include="GameInterfaces\ISettingsProvider.cs" />
         <Compile Include="GameInterfaces\ISkinDatabaseProvider.cs" />
         <Compile Include="GameInterfaces\IChatProvider.cs" />
+        <Compile Include="Models\BlendShapeMorph.cs" />
         <Compile Include="Models\Chat.cs" />
+        <Compile Include="Models\FacialExpressionData.cs" />
         <Compile Include="Models\Message.cs" />
         <Compile Include="Models\MessageContent.cs" />
         <Compile Include="Models\PropInfo.cs" />
@@ -69,6 +71,7 @@
         <Compile Include="ModInterfaces\ITextAiExtraSettings.cs" />
         <Compile Include="ModInterfaces\IVoiceAiAccessor.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IBlinkLocator.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\IExpressionsLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IHeadPatLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IPropsLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IRagDollLocator.cs" />
