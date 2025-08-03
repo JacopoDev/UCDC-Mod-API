@@ -8,7 +8,9 @@ namespace UCDC_Mod_Api.ModInterfaces.SkinLocators
     /// </summary>
     public interface IHeadPatLocator
     {
-        public Transform GetHeadPatItemPlacement();
+        public Transform GetHeadPatColliderSpot();
         public Transform GetHeadTransform();
+        public Transform GetNeckTransform();
+        public Transform GetPettingHandPlacement();
     }
 }
