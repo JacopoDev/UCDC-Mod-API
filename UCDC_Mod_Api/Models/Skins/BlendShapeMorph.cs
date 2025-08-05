@@ -1,4 +1,4 @@
-﻿namespace UCDC_Mod_Api.Models
+﻿namespace UCDC_Mod_Api.Models.Skins
 {
     [System.Serializable]
     public class BlendShapeMorph

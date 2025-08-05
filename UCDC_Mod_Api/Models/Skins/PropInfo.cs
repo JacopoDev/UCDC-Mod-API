@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UCDC_Mod_Api.Models
+namespace UCDC_Mod_Api.Models.Skins
 {
     public class PropInfo
     {

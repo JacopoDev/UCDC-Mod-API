@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UCDC_Mod_Api.Models;
+using UCDC_Mod_Api.Models.Skins;
 using UnityEngine;
 
 namespace UCDC_Mod_Api.ModInterfaces.SkinLocators

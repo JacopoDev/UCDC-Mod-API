@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace UCDC_Mod_Api.Models
+namespace UCDC_Mod_Api.Models.Localization
 {
     public class AiPromptTexts
     {

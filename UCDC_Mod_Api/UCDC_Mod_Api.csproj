@@ -49,21 +49,22 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="GameInterfaces\IAiApiProvider.cs" />
+        <Compile Include="GameInterfaces\IAiPromptProvider.cs" />
         <Compile Include="GameInterfaces\ISettingsProvider.cs" />
         <Compile Include="GameInterfaces\ISkinDatabaseProvider.cs" />
         <Compile Include="GameInterfaces\IChatProvider.cs" />
-        <Compile Include="Models\AiPromptTexts.cs" />
-        <Compile Include="Models\BlendShapeMorph.cs" />
-        <Compile Include="Models\Chat.cs" />
-        <Compile Include="Models\FacialExpressionData.cs" />
-        <Compile Include="Models\Message.cs" />
-        <Compile Include="Models\MessageContent.cs" />
-        <Compile Include="Models\PropInfo.cs" />
-        <Compile Include="Models\PropPlacementInfo.cs" />
-        <Compile Include="Models\TextAiInfo.cs" />
-        <Compile Include="Models\TextResult.cs" />
-        <Compile Include="Models\SkinInfo.cs" />
-        <Compile Include="Models\VoiceResult.cs" />
+        <Compile Include="Models\Localization\AiPromptTexts.cs" />
+        <Compile Include="Models\Skins\BlendShapeMorph.cs" />
+        <Compile Include="Models\Skins\FacialExpressionData.cs" />
+        <Compile Include="Models\Skins\PropInfo.cs" />
+        <Compile Include="Models\Skins\PropPlacementInfo.cs" />
+        <Compile Include="Models\Skins\SkinInfo.cs" />
+        <Compile Include="Models\TextGen\Chat.cs" />
+        <Compile Include="Models\TextGen\Message.cs" />
+        <Compile Include="Models\TextGen\MessageContent.cs" />
+        <Compile Include="Models\TextGen\TextAiInfo.cs" />
+        <Compile Include="Models\TextGen\TextResult.cs" />
+        <Compile Include="Models\VoiceGen\VoiceResult.cs" />
         <Compile Include="ModInterfaces\ICreatedOnLoad.cs" />
         <Compile Include="ModInterfaces\ILocalesAiOverrider.cs" />
         <Compile Include="ModInterfaces\IModPanelCreator.cs" />

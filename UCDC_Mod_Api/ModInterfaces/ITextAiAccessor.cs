@@ -1,6 +1,7 @@
 ﻿using System;
 using UCDC_Mod_Api.GameInterfaces;
 using UCDC_Mod_Api.Models;
+using UCDC_Mod_Api.Models.TextGen;
 using UnityEngine;
 
 namespace UCDC_Mod_Api.ModInterfaces

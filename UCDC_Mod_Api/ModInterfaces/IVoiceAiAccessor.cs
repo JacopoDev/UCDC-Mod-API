@@ -1,6 +1,7 @@
 ﻿using System;
 using UCDC_Mod_Api.GameInterfaces;
 using UCDC_Mod_Api.Models;
+using UCDC_Mod_Api.Models.VoiceGen;
 
 namespace UCDC_Mod_Api.ModInterfaces
 {

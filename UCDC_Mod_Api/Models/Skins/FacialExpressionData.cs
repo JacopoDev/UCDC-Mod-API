@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace UCDC_Mod_Api.Models
+namespace UCDC_Mod_Api.Models.Skins
 {
     [Serializable]
     public class FacialExpressionData

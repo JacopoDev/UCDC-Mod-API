@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UCDC_Mod_Api.Models
+namespace UCDC_Mod_Api.Models.Skins
 {   
     /// <summary>
     /// Structure for skins to fix the placement for each prop 

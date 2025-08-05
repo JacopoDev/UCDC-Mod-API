@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace UCDC_Mod_Api.Models
+namespace UCDC_Mod_Api.Models.TextGen
 {
     /// <summary>
     /// Basic chat structure <br /><br />
