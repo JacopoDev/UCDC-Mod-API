@@ -54,6 +54,8 @@
         <Compile Include="GameInterfaces\ISkinDatabaseProvider.cs" />
         <Compile Include="GameInterfaces\IChatProvider.cs" />
         <Compile Include="Models\Localization\AiPromptTexts.cs" />
+        <Compile Include="Models\Localization\TranslationInfo.cs" />
+        <Compile Include="Models\Localization\TranslationTable.cs" />
         <Compile Include="Models\Skins\BlendShapeMorph.cs" />
         <Compile Include="Models\Skins\FacialExpressionData.cs" />
         <Compile Include="Models\Skins\PropInfo.cs" />
@@ -72,6 +74,7 @@
         <Compile Include="ModInterfaces\ISkinAccessor.cs" />
         <Compile Include="ModInterfaces\ITextAiAccessor.cs" />
         <Compile Include="ModInterfaces\ITextAiExtraSettings.cs" />
+        <Compile Include="ModInterfaces\ITranslationsOverrider.cs" />
         <Compile Include="ModInterfaces\IVoiceAiAccessor.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IBlinkLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IExpressionsLocator.cs" />
