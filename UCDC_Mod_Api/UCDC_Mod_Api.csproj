@@ -50,12 +50,14 @@
     <ItemGroup>
         <Compile Include="GameInterfaces\IAiApiProvider.cs" />
         <Compile Include="GameInterfaces\IAiPromptProvider.cs" />
+        <Compile Include="GameInterfaces\ISceneDatabaseProvider.cs" />
         <Compile Include="GameInterfaces\ISettingsProvider.cs" />
         <Compile Include="GameInterfaces\ISkinDatabaseProvider.cs" />
         <Compile Include="GameInterfaces\IChatProvider.cs" />
         <Compile Include="Models\Localization\AiPromptTexts.cs" />
         <Compile Include="Models\Localization\TranslationInfo.cs" />
         <Compile Include="Models\Localization\TranslationTable.cs" />
+        <Compile Include="Models\Scenes\SceneData.cs" />
         <Compile Include="Models\Skins\BlendShapeMorph.cs" />
         <Compile Include="Models\Skins\FacialExpressionData.cs" />
         <Compile Include="Models\Skins\PropInfo.cs" />
@@ -70,6 +72,7 @@
         <Compile Include="ModInterfaces\ICreatedOnLoad.cs" />
         <Compile Include="ModInterfaces\ILocalesAiOverrider.cs" />
         <Compile Include="ModInterfaces\IModPanelCreator.cs" />
+        <Compile Include="ModInterfaces\ISceneDatabaseAccessor.cs" />
         <Compile Include="ModInterfaces\ISettingsAccessor.cs" />
         <Compile Include="ModInterfaces\ISkinAccessor.cs" />
         <Compile Include="ModInterfaces\ITextAiAccessor.cs" />
