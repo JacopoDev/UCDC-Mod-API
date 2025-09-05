@@ -60,6 +60,7 @@
         <Compile Include="Models\Scenes\SceneData.cs" />
         <Compile Include="Models\Skins\BlendShapeMorph.cs" />
         <Compile Include="Models\Skins\FacialExpressionData.cs" />
+        <Compile Include="Models\Skins\LipSyncData.cs" />
         <Compile Include="Models\Skins\PropInfo.cs" />
         <Compile Include="Models\Skins\PropPlacementInfo.cs" />
         <Compile Include="Models\Skins\SkinInfo.cs" />
@@ -82,6 +83,7 @@
         <Compile Include="ModInterfaces\SkinLocators\IBlinkLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IExpressionsLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IHeadPatLocator.cs" />
+        <Compile Include="ModInterfaces\SkinLocators\ILipSyncLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IPropsLocator.cs" />
         <Compile Include="ModInterfaces\SkinLocators\IRagDollLocator.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
